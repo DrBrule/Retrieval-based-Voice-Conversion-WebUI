@@ -22,7 +22,7 @@ def arg_parse() -> tuple:
     parser.add_argument("--input_path", type=str, help="input path")
     parser.add_argument("--index_path", type=str, help="index path")
     parser.add_argument("--f0method", type=str, default="harvest", help="harvest or pm")
-    parser.add_argument("--opt_path", type=str, help="opt path")
+    parser.add_argument("--opt_path", type=str, help="output path")
     parser.add_argument("--model_name", type=str, help="store in assets/weight_root")
     parser.add_argument("--index_rate", type=float, default=0.66, help="index rate")
     parser.add_argument("--device", type=str, help="device")
